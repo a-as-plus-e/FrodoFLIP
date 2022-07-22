@@ -5,7 +5,7 @@ All project directories are stored as zip files.
 
 # Ciphertexts
 
-- This directory contains our full ciphertext DB. Sp files contain the S', E', and E'' matrices that generated the ciphertexts, Mu files contain the specific message randomness that generated S', E', and E''. ct files contain the output ciphertexts. To use the full database in secret key recovery, merge all files with the same name into one with a clever cat command.
+- This directory contains our database of Mu files that can be used to generate ciphertext artifacts. Using the public key, and modifying the encapsulate function to take mu as a parameter, the Sp and ct files may be generated. Code for this will be supplied shortly. In the meantime, the pre-created files are temporarily hosted at the following shared link(https://uark.box.com/s/ozjc0bdx4bamaady4zbhiqzkep7a1bcv). Sp files contain the S', E', and E'' matrices that generated the ciphertexts, Mu files contain the specific message randomness that generated S', E', and E''. ct files contain the output ciphertexts. To use the full database in secret key recovery, merge all files with the same name into one with a clever cat command.
 
 # Key
 
